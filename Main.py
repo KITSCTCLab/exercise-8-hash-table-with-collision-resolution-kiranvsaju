@@ -12,9 +12,9 @@ def display_hash(hashtable) -> None:
 def Hashing(keyvalue) -> int:
 	return a % len(HashTable)
 
-def insert(Hashtable, keyvalue, value) -> None:
+def insert(Hashtable, a, value) -> None:
 	# Write your code here
-	hashtable[Hashing(keyvalue)].append(a)
+	hashtable[Hashing(a)].append(value)
 
 
 # Do not edit the following code
