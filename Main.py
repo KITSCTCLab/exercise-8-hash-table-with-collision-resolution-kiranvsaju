@@ -9,7 +9,7 @@ def display_hash(hashtable) -> None:
 			print("-->",b , end=" ")
 	         print()
 
-def Hashing(keyvalue) -> int:
+def Hashing(a) -> int:
 	return a % len(HashTable)
 
 def insert(Hashtable, a, value) -> None:
