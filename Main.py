@@ -14,7 +14,7 @@ def Hashing(a) -> int:
 
 def insert(Hashtable, a, value) -> None:
 	# Write your code here
-	hashtable[Hashing(a)].append(value)
+	Hashtable[Hashing(a)].append(value)
 
 
 # Do not edit the following code
