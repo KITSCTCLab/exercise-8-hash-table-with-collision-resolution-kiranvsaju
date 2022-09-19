@@ -6,8 +6,8 @@ def display_hash(hashtable) -> None:
 		content = hashtable[a]
 		print(a , end=" ")
 		for b in content:
-			print("-->",b , end=" ")
-	        print()
+			print("-->",b , end=" ") 
+		print()
 
 def Hashing(a) -> int:
 	return a % len(HashTable)
